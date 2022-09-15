@@ -9,8 +9,8 @@
             let value = e.target.dataset.num;
         screen.value += value;        })
     })
-})
-Equal.addEventListener('click', function(e)
+
+    Equal.addEventListener('click', function(e)
 {
   if(screen.value === "")
   {
@@ -20,10 +20,12 @@ Equal.addEventListener('click', function(e)
     screen.value = answer;
   } 
 })
-clearInterval.addEventListener('click', function(e)
+clear.addEventListener('click', function(e)
 {
     screen.value = "";
 })
+})
+
 ();
 
 
